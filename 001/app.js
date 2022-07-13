@@ -16,4 +16,20 @@ function rand(min, max) {
   console.log(mas);
 _ - zymimas nereikalingas kintamasis, kurio nenaudosim, bet naudojam tik sintakses reikiamybei
   */
-  console.log(array); 
+
+console.log(array);
+ 
+
+// .push() -  deda kintamaji i gala
+// .unshift() - deda kintamaji i pacia pradzia
+// .shift() - ismeta pirma kintamaji
+// .pop() - ismeta paskutini kintamaji
+
+/* const cats = ['Murka', 'Pilkis', 'Rainius']
+
+console.log(cats[rand(0,2)]);
+*/
+/* for (let i = 0; i < 10; i++) {
+    console.log(array[i]);
+} */
+array.forEach(n => console.log(n)); // teisingas kodas, isvardinti masyvo kintamuosius atskirai
