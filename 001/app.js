@@ -10,4 +10,8 @@ function rand(min, max) {
       array.push(rand(7, 77))
   };
   
+  /*
+  const mas = [...array(10)].map(_ => rand(7,77));
+_ - zymimas nereikalingas kintamasis, kurio nenaudosim, bet naudojam tik sintakses reikiamybei
+  */
   console.log(array); 
