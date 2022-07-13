@@ -12,6 +12,8 @@ function rand(min, max) {
   
   /*
   const mas = [...array(10)].map(_ => rand(7,77));
+
+  console.log(mas);
 _ - zymimas nereikalingas kintamasis, kurio nenaudosim, bet naudojam tik sintakses reikiamybei
   */
   console.log(array); 
