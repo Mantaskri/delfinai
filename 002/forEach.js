@@ -20,7 +20,9 @@ console.log('-------------------------------------------');
 
 console.log('-------------------------------------------');
 
-// t - visas masyvas per kuri pereidinejam
+// t - visas masyvas per kuri pereidinejam kiek kartu elementu yra, tiek kartu pereis
+// ir rodys nurodyta nari
+// [1(0), 5(1), 77(2)]
 
 [1, 5, 77].forEach((a, i, t) => console.log(t[2]));
 
