@@ -4,7 +4,7 @@ const girls = ['Brigita', 'Edita', 'Deimante', 'Juste', 'Ona', 'Brone',
 console.log(girls);
  // 1
  console.log('----------1-----------');
- 
+
  function rand(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -13,3 +13,9 @@ console.log(girls);
     const cats = [...Array(10)].map(_ => rand(2, 12));
     const owners = [...Array(10)].map(_ => girls[rand(0, 8)])
     console.log(cats, owners);
+
+     // 2
+ console.log('----------2-----------');
+
+ console.log('masyvas', cats, 'turi', cats.length ,'nariu');
+ console.log(cats.filter(n => !(n % 3)));
