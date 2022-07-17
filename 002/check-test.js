@@ -27,3 +27,12 @@ const girls = ['Brigita', 'Edita', 'Deimante', 'Juste', 'Ona', 'Brone',
 // of an array and returns the new length of the array.
 owners.unshift('Nauseda');
 console.log(owners);
+
+ // 4
+ console.log('----------4-----------');
+
+ var catOwners = [];
+ for (let i=0; i<owners.length; i++ ) {
+    catOwners.push(`${owners[i]} has ${cats[i]} cats`)
+ }
+ console.log(catOwners);
