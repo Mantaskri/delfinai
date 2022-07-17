@@ -1,7 +1,7 @@
 console.log('-----------------------------------Testas------------------------------------');
 const girls = ['Brigita', 'Edita', 'Deimante', 'Juste', 'Ona', 'Brone',
  'Ramune', 'Kastone', 'Meilute'];
-console.log(girls);
+ console.log(girls);
  // 1
  console.log('----------1-----------');
 
@@ -19,3 +19,11 @@ console.log(girls);
 
  console.log('masyvas', cats, 'turi', cats.length ,'nariu');
  console.log(cats.filter(n => !(n % 3)));
+
+ // 3
+ console.log('----------3-----------');
+
+//The unshift() method adds one or more elements to the beginning 
+// of an array and returns the new length of the array.
+owners.unshift('Nauseda');
+console.log(owners);
