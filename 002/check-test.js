@@ -36,3 +36,16 @@ console.log(owners);
     catOwners.push(`${owners[i]} has ${cats[i]} cats`)
  }
  console.log(catOwners);
+
+ // 5
+ console.log('----------5-----------');
+ 
+ for (let name of owners) {
+   for (let i = 0; i < owners.length; i++) {
+      if (name === owners[i + 1]) {
+          console.log(name);
+          break;
+      }
+      break;
+   }
+}
