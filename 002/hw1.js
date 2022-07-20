@@ -61,7 +61,7 @@ for (let i = 0; i < arr.length; i++) {
 
 // 3
 console.log('-----------------------------------3------------------------------------');
-
+//
 const letters = ['A', 'B', 'C', 'D'];
 
 let arrOfLetters = [...Array(200)].map(_ => letters[rand(0, 3)]);
@@ -91,7 +91,7 @@ console.log(`A: ${countA}, B: ${countB}, C: ${countC}, D: ${countD}`);
 
 // 4
 console.log('-----------------------------------4------------------------------------');
-
+//
 let arrOL1 = [...Array(200)].map(_ => letters[rand(0, 3)]);
 let arrOL2 = [...Array(200)].map(_ => letters[rand(0, 3)]);
 let arrOL3 = [...Array(200)].map(_ => letters[rand(0, 3)]);
@@ -115,7 +115,10 @@ console.log(uniqueWords);
 
 // 5
 console.log('-----------------------------------5------------------------------------');
-
+//const m1 = new Set();
+// while(m1.size < 100) {
+//  m1.add(rand(100,999))   
+// };
 const arr100 = [];
 while (arr100.length < 100) {
   const number = rand(100, 999);

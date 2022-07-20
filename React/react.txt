@@ -1,0 +1,6 @@
+React - a JS library for building user interface (visual)
+Angulars - framowork pagrinde skirtas aplikacijom
+
+Component - js funkcija, kuri turi grazint html. (funkcija privalo prasidet is didziosios raides).
+Props - ieina i komponento argumenta : Kosmosas(propsas: pvz. spalva) {
+State - 
