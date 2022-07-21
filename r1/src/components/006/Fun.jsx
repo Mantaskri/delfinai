@@ -1,9 +1,9 @@
 import { useState } from "react";
 
-function Fun({spalva}) {
+function Fun({spalva, setCount}) {
 
     const [bg, setBg] = useState('green');
-    const [count, setCount] =useState(0);
+    //const [count, setCount] =useState(0);
 
     const changeB = () => {
       //  setBg('blue');
@@ -22,7 +22,7 @@ function Fun({spalva}) {
         backgroundColor: bg,
         borderRadius: 50,
         
-    }}>FUN {count}</h2>
+    }}>FUN </h2>
     <button onClick={changeB}>Do Blue</button>
     <button onClick={addOne}>+ 1</button>
     </>
