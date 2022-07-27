@@ -12,7 +12,7 @@ const arr1 = [...Array(2)].map(_ => rand(0, 4));
 console.log(Math.max(...arr1)/Math.min(...arr1));
 
 // 2
-console.log('2///');
+console.log('~~~~~~~~~~~~~~~~~ 2');
 
 let arr2 = [...Array(3)].map(_ => rand(0, 25));
 arr2.sort((a,b) => a - b);
@@ -20,7 +20,7 @@ console.log(arr2);
 console.log(arr2[1]);
 
 // 3
-console.log('3///');
+console.log('~~~~~~~~~~~~~~~~~ 3');
 
 let arr3 = [...Array(3)].map(_ => rand(1, 10));
 console.log(arr3);
@@ -33,7 +33,7 @@ if (arr3[0] + arr3[1] > arr3[2]
     }
 
 // 4
-console.log('4///');
+console.log('~~~~~~~~~~~~~~~~~ 4');
 
 let arr4 = [...Array(4)].map(_ => rand(0, 2));
 let zeroCount = 0;
@@ -46,7 +46,7 @@ for (let number of arr4) {
 console.log(zeroCount);
 
 // 5
-console.log('5///');
+console.log('~~~~~~~~~~~~~~~~~ 5');
 
 let arr5 = [...Array(3)].map(_ => rand(-10, 10));
 console.log(arr5);
@@ -68,7 +68,7 @@ console.log(arrOfStr);
 
 
 // 6
-console.log('6///');
+console.log('~~~~~~~~~~~~~~~~~ 6');
 
 let countOfCandles = rand(0, 3000);
 console.log(countOfCandles);
@@ -86,7 +86,7 @@ let sum = 0;
 console.log(sum.toFixed(2));
 
 // 7
-console.log('7///');
+console.log('~~~~~~~~~~~~~~~~~ 7');
 
 let arr7 = [...Array(3)].map(_ => rand(0, 100));
 console.log(arr7);
@@ -112,4 +112,4 @@ function averageMinusTen(arrayOfNumbers) {
 
 
 console.log(average(arr7));
-console.log(averageMinusTen(arr7)); 
+console.log(averageMinusTen(arr7));
